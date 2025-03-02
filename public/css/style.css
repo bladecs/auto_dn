@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form-box{
+    width: 20rem;
+}
+
+.form-label{
+    font-size: 0.8rem;
+}
+
+.gradient-1{
+    background: linear-gradient(to bottom right,#12127c,#ffffff );
+}
