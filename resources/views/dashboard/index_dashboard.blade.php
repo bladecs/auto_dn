@@ -109,8 +109,23 @@
                 </main>
                 <main class="container p-3 rounded-3 bg-white shadow">
                     <h1 class="text-center">TABLE MANIFEST TODAY</h1>
-                    <table class="table table-strip">
-
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <td>No Manifest</td>
+                                <td>Dock</td>
+                                <td>Date</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>19ASDUHOQTSIG8AS87WEQO7667OA6</td>
+                                <td class="text-center">1</td>
+                                <td>2025-01-15</td>
+                                <td>On Progress</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </main>
             </div>

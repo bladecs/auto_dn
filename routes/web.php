@@ -15,6 +15,9 @@ Route::get('dashboard',function(){
 Route::get('schedule',function(){
     return view('dashboard.index_schedule');
 })->name('schedule');
+Route::get('/webhook-view', function () {
+    return view('testing');
+});
 
 // Route API AJAX
 Route::get('/api/manifest',[apiController::class,'manifest'])->name('listmanifest');
